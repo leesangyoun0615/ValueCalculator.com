@@ -72,8 +72,9 @@ export default function Header({ selectedTopic }) {
           <ul>
             <li>home</li>
             <li>Email : lsylsy0615@nave.com </li>
-            <li>Email : leesaungyoun0615
-              @gamil.com </li>
+            <li>Email : leesaungyoun0615 @gamil.com </li>
+
+            <li>Good Luck</li>
           </ul>
         </nav>
       </aside>
