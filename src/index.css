@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: "Quicksand", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #1f2424; /* 밝은 회색 배경 */
+  color: #333; /* 어두운 회색 글자색 */
+  min-height: 100vh;
+}
+
+main {
+  max-width: 100%;
+  width: 30rem;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.center {
+  text-align: center;
+}
+
+#examples {
+  width: 100%; /* 부모 요소에 맞게 너비 설정 */
+  margin-bottom: auto; /* 아래 여백을 최대한 확보하여 높이를 조절 */
+}
+
+#examples menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 0.5rem;
+  list-style: none;
+}
+
+#examples menu button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #474747;
+  color: #ede6e6;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+#examples menu button:hover {
+  background-color: #1abc9c;
+  color: #333;
+}
+
+#examples menu button.active {
+  background-color: #1abc9c;
+  color: #ebe7ef;
+}
+
+.targetValue {
+  color: #ffc107; /* Gold 색상을 조금 더 부드럽게 조정 */
+  font-weight: bold; /* 강조를 위해 굵기 추가 */
+}
+
+.theReslut {
+  color: #ff8ba7; /* 기존 핑크 계열에서 조화롭게 조정 */
+  font-weight: bold; /* 강조를 위해 굵기 추가 */
+}
+
+#description {
+  white-space: pre-wrap;
+}
