@@ -62,7 +62,11 @@ export default function Header({ selectedTopic }) {
           <span></span>
           <span></span>
         </button>
+<<<<<<< HEAD
         <h1>Valu Calculator</h1>
+=======
+        <h1>Gap Rate of Return</h1>
+>>>>>>> 83746d56b0109d1c8a5a16a58bd4d32adf6ede50
       </nav>
       <aside className={`sidebar ${isMenuOpen ? "open" : ""}`}>
         <button className="close-btn" onClick={closeSidebar}>
